@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title"></title>
+    <script src="./libraries/tailwind.js"></script>
+    <script src="./libraries/pannellum.js"></script>
+    <link rel="stylesheet" href="./libraries/pannellum.css">
+    <script src="./libraries/jquery.min.js"></script>
+    <script src="./index.js" defer></script>
+</head>
+<body>
+
+<div id="panorama"  class="absolute top-12 left-8" style="  width: 95%; height: 900px;">
+
+    <div  class="z-[999] w-full h-[10%]  absolute bottom-0 right-0 flex items-center justify-center opacity-[80%]">
+        <div class="w-[30%] h-full rounded-2xl bg-gray-600 flex justify-center items-center space-x-[10%] ">
+
+            <!-- <div class="max-h-[75%] h-[100px] max-w-[30%]">
+                <img class="max-h-[75%] " src="./images/utilities/info_72.png">
+            </div> -->
+            <div onclick="autorotate()"  class="cursor-pointer max-h-[75%] h-[100px] max-w-[30%]">
+                <img id="pause-play-icon" class="max-h-[75%] " src="./images/utilities/videos.png">
+            </div>
+            <!-- <div class="max-h-[75%] h-[100px] max-w-[30%]">
+                <img class="max-h-[75%] " src="./images/utilities/images.png">
+            </div> -->
+            <div onclick="showAllScenes()" class="cursor-pointer max-h-[75%] h-[100px] max-w-[30%]">
+                <img  class="max-h-[75%] " src="./images/utilities/panorama_list.png">
+            </div>
+
+        </div>
+    </div>
+
+    <div id="scenesCollection"  class="absolute top-[5%] right-[2%] z-[999] w-[8%] h-[80%] hidden overflow-y-auto bg-gray-700 opacity-75 ">
+
+    </div>
+
+</div>
+<style>
+    .pnlm-load-box,   .pnlm-loading {
+        display: none !important;
+    }
+</style>
+
+</body>
+
+
+

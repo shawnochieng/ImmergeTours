@@ -1,0 +1,320 @@
+{
+  "projectTitle": "Apartment",
+  "default": {
+    "firstScene": "scene-be52sf",
+    "sceneFadeDuration": 1500
+  },
+  "scenes": {
+    "scene-5imyx": {
+      "name": "Living Room 2",
+      "url": "blob:http://localhost:3000/70767651-06cd-4d4b-ae6e-6f3703478997",
+      "initialName": "scene_1",
+      "sceneUID": "scene-5imyx",
+      "hfov": 110,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "autoRotateInactivityDelay": 5000,
+      "autoLoad": true,
+      "panorama": "images/panoramas/scene-5imyx.jpeg",
+      "hotSpots": [
+        {
+          "pitch": -18.50002948308832,
+          "yaw": 173.7492305121137,
+          "hotspotScene": "scene-5imyx",
+          "draggable": false,
+          "id": "hotspot-hga8w",
+          "type": "scene",
+          "sceneID": "scene-59ign",
+          "sceneImage": "images/previews/preview_scene-59ign_0.png",
+          "targetPitch": 0,
+          "targetYaw": 0
+        }
+      ],
+      "initialYaw": 0,
+      "initialPitch": 0,
+      "title": "Living Room 2"
+    },
+    "scene-59ign": {
+      "name": "Kitchen",
+      "url": "blob:http://localhost:3000/95ec6a5c-f58f-4fed-a39e-9599103f3931",
+      "initialName": "scene_2",
+      "sceneUID": "scene-59ign",
+      "hfov": 110,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "autoRotateInactivityDelay": 5000,
+      "autoLoad": true,
+      "panorama": "images/panoramas/scene-59ign.jpeg",
+      "hotSpots": [
+        {
+          "pitch": -3.9273686362065834,
+          "yaw": 0.2724028554438789,
+          "hotspotScene": "scene-59ign",
+          "draggable": false,
+          "id": "hotspot-zjduy",
+          "type": "scene",
+          "sceneID": "scene-5imyx",
+          "sceneImage": "images/previews/preview_scene-5imyx_2.png",
+          "targetPitch": 0,
+          "targetYaw": 0
+        },
+        {
+          "pitch": -14.70137464853406,
+          "yaw": 179.8820285299226,
+          "hotspotScene": "scene-59ign",
+          "draggable": false,
+          "id": "hotspot-kd49k",
+          "type": "scene",
+          "sceneID": "scene-r0mz4",
+          "sceneImage": "images/previews/preview_scene-r0mz4_3.png",
+          "targetPitch": 0,
+          "targetYaw": 0
+        }
+      ],
+      "initialYaw": 0,
+      "initialPitch": 0,
+      "title": "Kitchen"
+    },
+    "scene-r0mz4": {
+      "name": "Hallway 1",
+      "url": "blob:http://localhost:3000/1d804583-85dc-4112-8917-bd2b3074acf0",
+      "initialName": "scene_3",
+      "sceneUID": "scene-r0mz4",
+      "hfov": 110,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "autoRotateInactivityDelay": 5000,
+      "autoLoad": true,
+      "panorama": "images/panoramas/scene-r0mz4.jpeg",
+      "hotSpots": [
+        {
+          "pitch": -25.089350373164976,
+          "yaw": -3.6336362677484004,
+          "hotspotScene": "scene-r0mz4",
+          "draggable": false,
+          "id": "hotspot-5ni1u",
+          "type": "scene",
+          "sceneID": "scene-59ign",
+          "sceneImage": "images/previews/preview_scene-59ign_5.png",
+          "targetPitch": 0,
+          "targetYaw": 0
+        },
+        {
+          "pitch": -21.08022789535519,
+          "yaw": 93.3141492881757,
+          "hotspotScene": "scene-r0mz4",
+          "draggable": false,
+          "id": "hotspot-5cnjg",
+          "type": "scene",
+          "sceneID": "scene-grb2b",
+          "sceneImage": "images/previews/preview_scene-grb2b_6.png",
+          "targetPitch": 0,
+          "targetYaw": 0
+        },
+        {
+          "pitch": -2.1170352559016927,
+          "yaw": 77.94596888697399,
+          "hotspotScene": "scene-r0mz4",
+          "draggable": false,
+          "id": "hotspot-psbts",
+          "type": "scene",
+          "sceneID": "scene-gulf6",
+          "sceneImage": "images/previews/preview_scene-gulf6_7.png",
+          "targetPitch": 0,
+          "targetYaw": 0
+        }
+      ],
+      "initialYaw": 0,
+      "initialPitch": 0,
+      "title": "Hallway 1"
+    },
+    "scene-grb2b": {
+      "name": "Hallway 2",
+      "url": "blob:http://localhost:3000/9a34004e-6cd1-474b-9a5f-806acf538685",
+      "initialName": "scene_4",
+      "sceneUID": "scene-grb2b",
+      "hfov": 110,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "autoRotateInactivityDelay": 5000,
+      "autoLoad": true,
+      "panorama": "images/panoramas/scene-grb2b.jpeg",
+      "hotSpots": [
+        {
+          "pitch": -26.46274332920365,
+          "yaw": 94.2432110706028,
+          "hotspotScene": "scene-grb2b",
+          "draggable": false,
+          "id": "hotspot-40leqf",
+          "type": "scene",
+          "sceneID": "scene-gulf6",
+          "sceneImage": "images/previews/preview_scene-gulf6_9.png",
+          "targetPitch": 0,
+          "targetYaw": 0
+        },
+        {
+          "pitch": -23.29342581183279,
+          "yaw": -0.6472709681848947,
+          "hotspotScene": "scene-grb2b",
+          "draggable": false,
+          "id": "hotspot-f7l33f",
+          "type": "scene",
+          "sceneID": "scene-pfu2g",
+          "sceneImage": "images/previews/preview_scene-pfu2g_10.png",
+          "targetPitch": 0,
+          "targetYaw": 0
+        },
+        {
+          "pitch": -28.005778721668253,
+          "yaw": -117.78827063271319,
+          "hotspotScene": "scene-grb2b",
+          "draggable": false,
+          "id": "hotspot-bsqk2",
+          "type": "scene",
+          "sceneID": "scene-r0mz4",
+          "sceneImage": "images/previews/preview_scene-r0mz4_11.png",
+          "targetPitch": 0,
+          "targetYaw": 0
+        }
+      ],
+      "initialYaw": 0,
+      "initialPitch": 0,
+      "title": "Hallway 2"
+    },
+    "scene-gulf6": {
+      "name": "Washroom",
+      "url": "blob:http://localhost:3000/fc4cbc22-2c39-4494-9eb5-e08cde246dd3",
+      "initialName": "scene_5",
+      "sceneUID": "scene-gulf6",
+      "hfov": 110,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "autoRotateInactivityDelay": 5000,
+      "autoLoad": true,
+      "panorama": "images/panoramas/scene-gulf6.jpeg",
+      "hotSpots": [
+        {
+          "pitch": -37.05448022233745,
+          "yaw": -90.33799433041048,
+          "hotspotScene": "scene-gulf6",
+          "draggable": false,
+          "id": "hotspot-7m21u",
+          "type": "scene",
+          "sceneID": "scene-grb2b",
+          "sceneImage": "images/previews/preview_scene-grb2b_13.png",
+          "targetPitch": 0,
+          "targetYaw": 0
+        },
+        {
+          "pitch": -12.953544123778027,
+          "yaw": -102.89824209558753,
+          "hotspotScene": "scene-gulf6",
+          "draggable": false,
+          "id": "hotspot-ofxhf",
+          "type": "scene",
+          "sceneID": "scene-r0mz4",
+          "sceneImage": "images/previews/preview_scene-r0mz4_14.png",
+          "targetPitch": 0,
+          "targetYaw": 0
+        }
+      ],
+      "initialYaw": 0,
+      "initialPitch": 0,
+      "title": "Washroom"
+    },
+    "scene-pfu2g": {
+      "name": "Bedroom",
+      "url": "blob:http://localhost:3000/24596f33-5b9d-4ec0-968f-ce6f64257479",
+      "initialName": "scene_6",
+      "sceneUID": "scene-pfu2g",
+      "hfov": 110,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "autoRotateInactivityDelay": 5000,
+      "autoLoad": true,
+      "panorama": "images/panoramas/scene-pfu2g.jpeg",
+      "hotSpots": [],
+      "initialYaw": 0,
+      "initialPitch": 0,
+      "title": "Bedroom"
+    },
+    "scene-be52sf": {
+      "name": "Entrance",
+      "url": "blob:http://localhost:3000/6e7e8f34-3eed-4ec0-9cf5-919d99e039b0",
+      "initialName": "scene_7",
+      "sceneUID": "scene-be52sf",
+      "hfov": 110,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "autoRotateInactivityDelay": 5000,
+      "autoLoad": true,
+      "panorama": "images/panoramas/scene-be52sf.jpeg",
+      "hotSpots": [
+        {
+          "pitch": -3.8469949530269965,
+          "yaw": 38.77007225654552,
+          "hotspotScene": "scene-be52sf",
+          "draggable": false,
+          "id": "hotspot-x306fh",
+          "type": "scene",
+          "sceneID": "scene-5imyx",
+          "sceneImage": "images/previews/preview_scene-5imyx_17.png",
+          "targetPitch": 0,
+          "targetYaw": 0
+        },
+        {
+          "pitch": -1.8240669906911244,
+          "yaw": -12.989068120786577,
+          "hotspotScene": "scene-be52sf",
+          "draggable": false,
+          "id": "hotspot-iwbm1",
+          "type": "scene",
+          "sceneID": "scene-uloc6",
+          "sceneImage": "images/previews/preview_scene-uloc6_18.png",
+          "targetPitch": 0,
+          "targetYaw": 0
+        }
+      ],
+      "initialYaw": 0,
+      "initialPitch": 0,
+      "title": "Entrance"
+    },
+    "scene-uloc6": {
+      "name": "Living Room 1",
+      "url": "blob:http://localhost:3000/b2c84e5a-7f64-4975-9bad-af8403e8c4cf",
+      "initialName": "scene_8",
+      "sceneUID": "scene-uloc6",
+      "hfov": 110,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "autoRotateInactivityDelay": 5000,
+      "autoLoad": true,
+      "panorama": "images/panoramas/scene-uloc6.jpeg",
+      "hotSpots": [
+        {
+          "pitch": -8.620882772337753,
+          "yaw": 102.37712513609898,
+          "hotspotScene": "scene-uloc6",
+          "draggable": false,
+          "id": "hotspot-1c0q6",
+          "type": "scene",
+          "sceneID": "scene-59ign",
+          "sceneImage": "images/previews/preview_scene-59ign_20.png",
+          "targetPitch": 0,
+          "targetYaw": 0
+        }
+      ],
+      "initialYaw": 0,
+      "initialPitch": 0,
+      "title": "Living Room 1"
+    }
+  }
+}

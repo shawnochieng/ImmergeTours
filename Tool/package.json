@@ -1,0 +1,17 @@
+{
+  "name": "ImmergeTours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "dependencies": {
+    "file-saver": "^2.0.5",
+    "flatted": "^3.3.3",
+    "jszip": "^3.10.1",
+    "three": "^0.177.0",
+    "pannellum": "^2.5.6"
+  }
+}
